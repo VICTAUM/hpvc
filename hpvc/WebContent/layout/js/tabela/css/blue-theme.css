@@ -1,0 +1,163 @@
+/* tables */
+table.tablesorter {
+	font-family:arial;	
+	margin:20px 0px 15px 125px;
+	font-size: 8pt;
+	width: 810px;
+	text-align: left;	
+}
+table.tablesorter thead{	
+	border:none;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {		
+	font-size: 1.4em;
+	padding: 8px;
+}
+table.tablesorter thead tr .header {	
+	background-image: url(../img/setas.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+	font-size:1.4em;
+	color:#575757;
+}
+table.tablesorter tbody td {
+	color: #323e4e;
+	padding: 8px;
+	background-color: #FFF;
+	vertical-align: top;
+	font-size:1.4em;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#ebebeb;
+	
+}
+table.tablesorter tbody tr.even td {
+	background-color:#f6f6f6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../img/crescente.png);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../img/decrescente.png);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #ffffff;
+}
+
+/* Estilos paginacao e botões */
+
+.pager{
+	width:250px;
+	margin:0 auto;
+}
+.pager form{ width:360px;}
+.pagedisplay{	
+	margin:0 5px 0 0;
+	float:left;
+	padding:5px;
+	height:15px;
+	font-family:OpensansRegular;
+	text-align:center;
+	border:solid 1px #929090;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	background:#ededed;	
+}
+.pagesize{
+	padding:5px;
+	height:28px;
+	font-family:OpensansRegular;
+	border:solid 1px #929090;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	background:#ededed;
+
+}
+
+.pager .first, .pager .prev, .pager .next, .pager .last{
+  margin: 0 5px 0 0;
+  float:left;
+  width:28px;
+  height:28px;  
+  text-indent:-9999px;
+  background: #9e9e9e url(../img/icones-pager.png) no-repeat 6px 9px;
+  -webkit-border-radius:20px;
+  border-radius:20px;
+  -webkit-box-shadow:
+  	0 4px 0 0 #777777,
+	inset 0 -1px 0 0 #c1c3c3 
+	;  
+  box-shadow:
+  	0 4px 0 0 #777777,
+	inset 0 -1px 0 0 #c1c3c3 
+	;
+}
+
+.pager .first:hover, .pager .prev:hover, .pager .next:hover, .pager .next:hover, .pager .last:hover{  
+  background-color:#b6b6b6;
+}
+.pager .first:active, .pager .prev:active, .pager .next:active, .pager .next:active, .pager .last:active{  
+  background-position:6px -23px;    
+  -webkit-box-shadow: inset 0 0 5px 0 #000000;  
+  box-shadow:inset 0 0 5px 0 #000000; 
+}
+.pager .prev{
+  background-position:-26px 9px;
+}
+.pager .prev:active{
+  background-position:-26px -23px;
+}
+.pager .next{
+ background-position:-58px 9px;
+}
+.pager .next:active{
+ background-position:-58px -23px;
+}
+.pager .last{
+ background-position:-90px 9px;
+}
+.pager .last:active{
+ background-position:-90px -25px;
+}
+/* Estilos urgente e atencao */
+
+table.tablesorter tbody tr.prioridade-urgente td{
+	background:#c42a2a;
+	color:#FFFFFF;
+}
+table.tablesorter tbody tr.prioridade-atencao td{
+	background:#cdb512;
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

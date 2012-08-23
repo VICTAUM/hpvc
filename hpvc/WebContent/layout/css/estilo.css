@@ -1,0 +1,252 @@
+/* CSS Sistema HPVC
+   Desenvolvido por Luciano Baraúna
+   Data: 17/06/2012
+   http://lucianobarauna.com.br/
+*/
+body{ 
+	background:#1e2632;
+	font-family:OpenSansRegular;
+	font-size:62.5%;
+}
+/* ==========================================================================
+Elementos gerais
+========================================================================== */
+.centraliza{margin:0 auto;}
+.fright{ float:right;}
+.fleft{ float:left;}
+.fnone{ float:none;}
+a{ text-decoration:none;}
+a:active, a:visited{ outline:none;}
+/* ==========================================================================
+Corpo
+========================================================================== */
+.bg-corpo{ 
+	background:#313d4d;
+}
+.corpo{ 
+	background:url(../img/textura.png);
+}
+
+/* ==========================================================================
+Topo
+========================================================================== */
+
+.barra-login{ 
+	margin:12px 25px 35px 0;
+	float:right;
+	clear:left;
+}
+
+.barra-login h1, .barra-login a{
+	display:inline-block;
+	color:#FFFFFF;
+	-webkit-border-radius:5px 0 0 5px;
+	border-radius:5px 0 0 5px;
+	-webkit-text-shadow:0 -1px 0 rgba(0,0,0,0.2);
+	text-shadow:0 -1px 0 rgba(0,0,0,0.2);
+
+}
+.barra-login h1{
+	padding:5px 12px 5px 30px;
+	font:1.2em/2.5em OpenSansSemiboldRegular;
+	background: #82af38 url(../img/ico-login-usuario.png) no-repeat	10px 10px;	
+	box-shadow:
+		inset 0 0 0 1px #acde5a,
+		0 0 5px 0 rgba(0,0,0,0.4);	
+}
+.barra-login a{
+	margin:0 0 0 -3px;
+	padding:6px 12px 6px 10px;
+	text-transform:uppercase;
+	font:1.2em/2.3em OpenSansBold;
+	background: #82af38;	
+	-webkit-border-radius:0 5px 5px 0;
+	border-radius:0 5px 5px 0;
+	box-shadow:
+		inset 0 0 0 1px #acde5a,
+		3px 0 5px 0 rgba(0,0,0,0.4);
+}
+.barra-login a:hover{
+	background:#75a02f;
+}
+.barra-login a:active{
+	background:#75a02f;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+/* ==========================================================================
+Conteudo
+========================================================================== */
+.conteudo{ 
+	padding:0 0 30px 0;
+	width:960px;
+	min-height:600px;
+	height:auto !important; 
+	background:url(../img/bg-conteudo.jpg);
+}
+.titulo{
+	margin:0 0 45px 0;
+	padding:30px 0 27px;
+	clear:right;
+	border-top:solid 1px #868686;
+	border-bottom:solid 1px #868686;
+	line-height:1.25em;
+	color:#364252;
+	font-size:4.5em;
+	-webkit-box-shadow:inset 0 0 0 1px #FFFFFF;
+	box-shadow:inset 0 0 0 1px #FFFFFF;
+}
+.titulo img{
+	margin:0 20px 0 25px;
+	float:left;
+	
+}
+/* Menu principal e menu
+   ========================================================================== */
+/* Menu principal */
+.menu-principal{
+	margin:0 0 0 28px;
+	padding:8px 0 8px 7px;
+	position:absolute;
+	width:28px;
+	min-height:35px;
+	border:solid 1px #d4d1d1;
+	background:#FFFFFF;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	box-shadow:0 2px 3px 0 rgba(0,0,0,0.3)
+}
+.menu-principal li{
+	margin:0 0 5px;
+	width:24px;
+	border-top:solid 1px #ececec;
+}
+
+.menu-principal li:first-child{
+	margin:none;
+	border-top:none;
+}
+
+.menu-principal li a{	
+	margin:5px 0 0;
+	display:inline-block;
+	text-indent:-9999px;
+	width:24px;
+	height:24px;		
+	background-image:url(../img/sprite-menu-pequeno.png);	
+}
+/* Sprites menu principal */
+.principal-chamado{}
+.principal-chamado:hover{ background-position:0 -36px; }
+.principal-chamado:active{ background-position:0 -74px; }
+
+.principal-produto{ background-position:-31px 0;}
+.principal-produto:hover{ background-position:-31px -36px;}
+.principal-produto:active{ background-position:-30px -75px;}
+
+.principal-site{ background-position:-60px 0;}
+.principal-site:hover{ background-position:-60px -35px;}
+.principal-site:active{ background-position:-60px -75px;}
+/* Menu */
+.menu{
+  margin:0 0 0 125px;
+}
+.menu li{}
+.menu li a{
+	margin:9px 9px 0;
+	position:relative;
+	z-index:9999;
+	display:inline-block;
+	width:75px;
+	height:75px;	
+	text-indent:-9999px;
+	border:solid 2px #afaeae;
+	background:#FFF url(../img/sprite-menu.png) no-repeat;	
+	-webkit-border-radius:40px;
+	border-radius:40px;
+	-webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.menu li a:hover{}
+.menu li a:active{
+	margin:12px 12px 2px;
+	cursor:pointer;
+	width:70px;
+	height:70px;
+}
+.borda-mascara{ 	
+	margin:0 16px 0 0;
+	float:left;
+	width:95px;
+	height:95px;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+	-webkit-box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+}
+.borda-mascara:before{	
+	content:"";
+	position:absolute;
+	z-index:1;
+	width:94px;
+	height:94px;
+	border:solid 1px #f5f4f4;
+	-webkit-border-radius:50px;
+	border-radius:50px;
+}
+.borda-mascara h2{
+	margin:15px 0 0 0;
+	text-transform:uppercase;
+	text-align:center;
+	color:#8e8e8e;
+	font:1.4em OpenSansBold;
+	
+}
+.borda-mascara:hover h2{
+	color:#3b5998;
+}
+.borda-mascara:active h2{
+	color:#364252;
+}
+/* Sprites */
+.menu .btn-chamado{ background-position:16px 18px;}
+.menu .btn-chamado:hover{ background-position:16px -51px;}
+.menu .btn-chamado:active{ background-position:13px -125px;}
+
+.menu .btn-produto{ background-position:-53px 18px;}
+.menu .btn-produto:hover{ background-position:-53px -51px;}
+.menu .btn-produto:active{ background-position:-56px -127px;}
+
+.menu .btn-site{ background-position:-128px 15px;}
+.menu .btn-site:hover{ background-position:-128px -55px;}
+.menu .btn-site:active{ background-position:-130px -129px;}
+/* ==========================================================================
+Rodape
+========================================================================== */
+.rodape{ 
+	margin:0 auto; 
+	padding:20px 0 0 0; 
+	width:960px; 
+	height:30px; 
+	text-align:right;
+}
+.rodape a{ 
+	font-size:1.4em; 
+	text-decoration:none; 
+	color:#fafafa; 
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.rodape a span{ 
+	font-size:0.8em;
+}
+.rodape a:hover{ 
+	color:#3d5779;
+}
+/* ==========================================================================
+RODAPE
+========================================================================== */
+.bg-rodape-login{ position:absolute; bottom:0; width:100%; border-top:solid 1px #0f1a28; background:#1e2632;}
+.rodape-login{ padding:20px 0 0 0; width:960px; height:30px; text-align:right;}
+.rodape-login a{ font-size:1.4em; text-decoration:none; color:#313d4d; font-family:Tahoma, Geneva, sans-serif;}
+.rodape-login a span{ font-size:0.8em;}
+.rodape-login a:hover{ text-decoration:underline; color:#3d5779;}

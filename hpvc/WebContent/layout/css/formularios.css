@@ -1,0 +1,101 @@
+/* CSS Sistema HPVC
+   Desenvolvido por Luciano Baraúna
+   Data: 17/06/2012
+   http://lucianobarauna.com.br/
+*/
+/* ==========================================================================
+ELEMENTOS GERAIS
+========================================================================== */
+.form-hpvc{ 
+	width:808px;
+	font-size:1.2em;
+}
+/* Campos dos formulários */
+.form-hpvc div{ 
+	margin:10px 0;
+	padding:0 0 0 0;
+}
+.form-hpvc label{ 
+	margin:0 65px 0 0;
+	float:left; 
+	font-size:1.4em; 
+	color:#364252;
+}
+.form-hpvc input[type="text"], .form-hpvc select, .form-hpvc textarea{ 
+	margin:10px 0 25px 0; 
+	padding:0 0 0 5px;
+	height:30px;
+	font-family:OpensansRegular;
+	border:solid 1px #929090;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-webkit-box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	box-shadow:
+		0 1px 0 0 #ffffff, 
+		inset 0 1px 1px 0 rgba(0,0,0,0.17); 
+	background:#ededed;
+}
+.form-hpvc label select, .form-hpvc label textarea, .form-hpvc input[type="text"] { 
+	display:block; 
+}
+.form-hpvc label select{
+	width:200px;
+}
+.form-hpvc select, .form-hpvc textarea{ 
+	padding:5px; 
+}
+.form-hpvc textarea{
+	width:795px;
+	height:120px;
+	max-width:795px;
+	min-width:795px;	
+	min-height:120px;
+}
+.botao{
+	cursor:pointer;
+	padding:10px 12px;	
+	color:#FFFFFF;	
+	text-transform:uppercase;
+	font:1.4em OpenSansBold;	
+	text-shadow:0 3px 0 #092764;
+	background:#2b509a;	
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	box-shadow:
+		0 5px 0 0 #122856,
+		inset 0 0 1px 1px #5675b4;
+}
+.botao:hover{
+	background:#5675b4;
+}
+.botao:active{
+	background:#02346e;
+	box-shadow:		
+		inset 0 0 5px 0 rgba(0,0,0,0.7); 
+}
+/* Elementos internos */
+.form-hpvc h1{ 
+	margin:15px 0; 
+	color:#364252;
+}
+.form-hpvc p{ 
+	margin:5px 0 0 0;
+	color:#575757;
+	font:1.4em OpenSansBold;
+}
+/* Lista de retorno de formulario padrao
+   ========================================================================== */
+.lista-retorno{
+	margin:15px 0 25px;
+	clear:left;
+}
+.lista-retorno li{
+	margin:0 36px 10px 0;
+	float:left;
+}
+.lista-retorno h2{  
+	color:#364252;
+	font:1.8em OpenSansRegular;	
+}
